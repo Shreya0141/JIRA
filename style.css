@@ -1,0 +1,172 @@
+*{
+box-sizing: border-box;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+     background-image: url(./ombre.jpg); 
+   
+    background-size: cover;
+   
+    
+}
+.toolbox-cont{
+    
+    background-size: cover;
+    height : 4rem;
+    background-color:#8479E1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    border-bottom: solid 0.5px;
+}
+
+.toolbox-priority-cont{
+    height : 2rem;
+    width : 18rem;
+    background-color:#F9F3EE;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+}
+
+.actionbtn-cont{
+    height: 2rem ;
+    width: 10rem;
+    background-color: #F9F3EE;
+    margin-left: 5rem;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.color{
+    height: 1rem;
+    width: 2.5rem;
+    border-radius: 1rem;
+}
+
+.lightpink{
+    background-color:  #ffabab;
+}
+
+.blue{
+    background-color:#8f85f9;
+}
+
+.green{
+    background-color: #d6f991;
+}
+.black{
+    background-color: #faf399; 
+}
+
+.add-btn{
+    font-size: 1.25rem;
+    
+}
+.remove-btn{
+    font-size: 1.25rem;
+}
+
+.modal-cont{
+    position: absolute;
+    left: 25vw;
+    top: 25vh;
+    height: 50vh;
+    width: 50vw;
+    display: none;
+    background-color: #feede2;
+    border-radius: 1rem;
+}
+
+.textarea-cont{ 
+   
+  border: none;
+  outline: none;
+  resize:none;
+  height: 100%;
+  width:75%;
+  font-size: 2rem ;
+  padding: 2rem;
+  border-right: 2px solid black;
+  background-color: #feede2;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.priority-color-cont{
+  height: 100%;
+  width:25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+.priority-color{
+ height: 2.5rem;
+ width: 5rem;
+ border-radius: 1.5rem;
+}
+.active{
+    border: 5px solid #090909;
+}
+
+.main-cont{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.ticket-cont{
+     
+    background-repeat:round;
+    background-color: #F9F3EE;
+    height: 10rem;
+    width: 16rem;
+    border-radius: 8px;
+}
+
+.ticket-color{
+    height: 1rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.ticketid{
+    height: 1.5rem;
+    font-weight: 600;
+    font-size: .9rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.textarea{
+    height: 5rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 1.25rem;
+    overflow: auto;
+    outline: none;
+    word-break: break-all;
+}
+
+.lock-unlock{
+    font-size: 1.5rem;
+    margin-left: 14.5rem;
+    
+}
